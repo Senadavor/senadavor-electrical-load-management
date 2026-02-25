@@ -23,8 +23,8 @@ GitHub
 
 How to Run the program
 
-1.Open project folderin VS Code
+1.Open project folderin VS code
 2.Compile the program
-3.Run CapStone.cpp
+3.run Capstone.cpp
 4.Fellow the menu option
 
