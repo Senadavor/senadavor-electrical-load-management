@@ -25,6 +25,6 @@ How to Run the program
 
 1.Open project folderin VS Code
 2.Compile the program
-3.Run main.cpp
+3.Run CapStone.cpp
 4.Fellow the menu option
 
