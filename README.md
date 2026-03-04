@@ -16,15 +16,15 @@ Energy(KWh)=(Power in watts* Hours Used)/1000
 
 Tools Used
 C++
-VS Cod
+VS Code
 
 Git
 GitHub
 
 How to Run the program
 
-1.Open project folderin VS Code
+1.Open project folderin VS code
 2.Compile the program
-3.Run main.cpp
+3.run Capstone.cpp
 4.Fellow the menu option
 
