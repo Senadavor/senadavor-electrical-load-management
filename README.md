@@ -16,7 +16,7 @@ Energy(KWh)=(Power in watts* Hours Used)/1000
 
 Tools Used
 C++
-VS Cod
+VS Code
 
 Git
 GitHub
