@@ -25,18 +25,7 @@ class Appliance {
 };
 
 
-int main(){
 
-
-cout << "1. Register Appliance\n";
-cout << "2. View All Appliance\n";
-cout << "3. Search Appliance By name\n";
-cout << "4. Calculate Energy Consumption\n";
-cout << "5. Calculate Electricity Bill\n";
-cout << "6. Save Data to file\n";
-cout << "7. Load Data from file\n";
-cout << "0. Exist\n";
-}
 // ==== GLOBAL VARIABLES ====
 Appliance appliances[50];
 int applianceCount=0;
@@ -81,7 +70,7 @@ void registerAppliance(){
             appliances[applianceCount++]=a;
             cout<<"Appliance registered successfully.\n";
         }
-    void viewAppliaances(){
+    void viewAppliances(){
     	
         for(int i= 0; i< applianceCount;i++){
             cout<< i +1 <<". "
@@ -107,6 +96,11 @@ for (int i = 0; i <applianceCount; i++){
     }
     cout<<"Appliance not found.\n";
 }
+
+void calculateEnergy(){
+	cout <<"Calculating energy...\n";
+}
+
 void calculateBill(){
 if (applianceCount== 0){
 	cout <<"No appliances registered.\n";
@@ -164,7 +158,7 @@ int main(){
     do{
         cout<<"\n1--- Electrical Load Monitoring ---\n";
         cout<<"1. Register Appliance\n";
-        cout<<"2. View All Applianced\n";
+        cout<<"2. View All Appliances\n";
         cout<<"3. Search Appliance By Name\n";
         cout<<"4. Calculate Energy Consumption\n";
         cout<<"5. Calculate Electricity Bill\n";
